@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bmi_calculator"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="48dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/weight_in_kg"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="200dp" />
+
+
+        <EditText
+            android:id="@+id/editTextWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/your_weight"
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/gray"
+            android:layout_marginTop="4dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/height_in_cm"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="24dp" />
+
+
+        <EditText
+            android:id="@+id/editTextHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/your_height"
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/gray"
+            android:layout_marginTop="4dp" />
+
+
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_0_0"
+            android:textSize="36sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="48dp" />
+
+
+        <TextView
+            android:id="@+id/textViewCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/your_bmi_score"
+            android:textSize="18sp"
+            android:textColor="@color/gray"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+</ScrollView>

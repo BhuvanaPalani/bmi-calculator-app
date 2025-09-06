@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">Module 201 - Project 6</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="weight_in_kg">Weight in kg</string>
+    <string name="your_weight">Your weight</string>
+    <string name="height_in_cm">Height in cm</string>
+    <string name="your_height">Your height</string>
+    <string name="_0_0">0.0</string>
+    <string name="your_bmi_score">Your BMI Score</string>
+</resources>
